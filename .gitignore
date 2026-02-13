@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Uploads and exports (user data)
+uploads/*.pdf
+uploads/*.PDF
+exports/*.xlsx
+exports/*.pdf
+
+# History (user data)
+history/*.json
+
+# Keep directory structure
+!uploads/.gitkeep
+!exports/.gitkeep
+!history/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+streamlit.log
+
+# Environment variables (keep .env.example)
+.env
+
+# Test files
+test_extraction.py
+sample_lease.pdf
